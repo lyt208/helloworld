@@ -35,7 +35,6 @@ public class TestThread {
 
 			public void run() {
 				try {
-					System.out.println("是的");
 					
 					System.out.println(now() + " t2 线程已经运行");
 					System.out.println(now() + this.getName() + " 试图占有对象：someObject");
