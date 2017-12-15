@@ -40,7 +40,7 @@ public class TestThread {
 					System.out.println(now() + this.getName() + " 试图占有对象：someObject");
 					synchronized (someObject) {
 						System.out.println(now() + this.getName() + " 占有对象：someObject");
-						Thread.sleep(5000);
+						Thread.sleep(5000);						
 						System.out.println(now() + this.getName() + " 释放对象：someObject");
 					}
 					System.out.println(now() + " t2 线程结束");
